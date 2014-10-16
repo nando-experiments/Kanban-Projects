@@ -1,0 +1,74 @@
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+.kanban {
+	background-color: #f1f2f3;
+
+	.page-header {
+		h1 {
+			font-weight: lighter;
+			text-transform: uppercase;
+			color: #676767;
+			text-shadow: 0px 2px 2px #fff;
+		}
+	}
+
+	.kanban-section {
+		padding: 25px 0;
+
+		.panel-heading {
+			h4 {
+				font-weight: lighter;
+				text-transform: uppercase;
+				font-size: 14px;
+			}
+		}
+
+		.sortable-list {
+			list-style: none;
+			overflow: auto;
+			margin: 0;
+			padding: 7px;
+			background-color: #fff;
+			box-shadow: 0px 2px 3px #ddd;
+			border: 1px solid #ddd;
+
+			.sortable-item {
+				color: #878787;
+				cursor: move;
+				display: block;
+				font-size: 1em;
+
+				&.disabled {
+					color: #acacac;
+					cursor: text;
+				}
+			}
+
+			.placeholder {
+				background-color: #f9f9f9;
+				border: 1px dashed #ddd;
+				height: 42px;
+			}
+
+		}
+	}
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	padding: 20px 0 0;
+}
