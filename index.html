@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<title>Kanban Projects</title>
+<title>jQuery UI - Kanban Projects</title>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -11,18 +11,24 @@
 
 	<div id="kanban-wrapper">
 
+		<div class="message alert alert-success text-center">
+			<i class="fa fa-check"></i> <span class="msg"></span>
+		</div>
+
+		<div class="clearfix"></div>
+
 		<div class="kanban-section container-fluid">
 
 			<div class="col-md-12">
 				<div class="page-header text-center">
-					<h1>Kanban projects</h1>
+					<h1>jQuery UI - Kanban projects</h1>
 				</div>
 			</div>
 
-			<div class="panel-primary col-md-3">
+			<div id="briefing" class="panel-primary col-md-3">
 				<div class="panel-heading kanban-column-title">
 					<h4>
-						<i class="fa fa-pencil-square-o"></i> Negotiation and Briefing
+						<i class="fa fa-pencil-square-o"></i> Planning and Briefing
 						<span class="badge pull-right">1</span>
 					</h4>
 				</div>
@@ -33,7 +39,7 @@
 
 			</div>
 
-			<div class="panel-primary col-md-3">
+			<div id="design" class="panel-primary col-md-3">
 
 				<div class="panel-heading kanban-column-title">
 					<h4>
@@ -49,7 +55,7 @@
 
 			</div>
 
-			<div class="panel-primary col-md-3">
+			<div id="development" class="panel-primary col-md-3">
 
 				<div class="panel-heading kanban-column-title">
 					<h4>
@@ -65,7 +71,7 @@
 
 			</div>
 
-			<div class="panel-primary col-md-3">
+			<div id="testing" class="panel-primary col-md-3">
 
 				<div class="panel-heading kanban-column-title">
 					<h4>
