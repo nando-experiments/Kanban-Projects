@@ -1,9 +1,8 @@
 # Kanban Projects
 
-Kanban for projects views
-based in Bootstrap 3 and jQuery UI
+Kanban for projects views based in Bootstrap 3 and jQuery UI
 
-Work in progress!
+http://nando-experiments.github.io/Kanban-Projects/
 
 ## License
 
